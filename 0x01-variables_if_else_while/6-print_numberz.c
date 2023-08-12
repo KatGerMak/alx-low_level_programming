@@ -1,21 +1,19 @@
 #include <stdio.h>
-
 /**
- * main -  Entry point
+ * main - Entry point
  *
  * Return: Always 0(success)
  */
 int main(void)
 {
-	char c;
+	int num = 0;
 
-	for (c = 'a'; c <= 'z'; ++c)
+	while (num <= 9)
 	{
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-		}
+		putchar(num);
+		num++;
 	}
+
 	putchar('\n');
 
 	return (0);
