@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - Entry point
  *
  * Return: Always 0(success)
@@ -10,7 +9,7 @@ int main(void)
 	int left;
 	int right;
 
-	for ( left = 0; left <= 8; ++left)
+	for(left = 0; left <= 8; ++left)
 	{
 		for (right = left + 1; right <= 9; ++right)
 		{
@@ -20,7 +19,7 @@ int main(void)
 			if (left != 8)
 			{
 				putchar(',');
-				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
