@@ -9,7 +9,7 @@ int main(void)
 	int left;
 	int right;
 
-	for(left = 0; left <= 8; ++left)
+	for (left = 0; left <= 8; ++left)
 	{
 		for (right = left + 1; right <= 9; ++right)
 		{
