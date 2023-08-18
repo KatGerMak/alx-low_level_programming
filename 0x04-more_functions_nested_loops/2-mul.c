@@ -5,7 +5,7 @@
  * @b: second number for multiply
  * Return: multiply answer
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	int ans;
 
