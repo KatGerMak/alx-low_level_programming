@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	long num;
+	long num = 612852475143;
 	long prime;
 	long i;
 
