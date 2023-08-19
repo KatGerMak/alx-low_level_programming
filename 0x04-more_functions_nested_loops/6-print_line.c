@@ -3,7 +3,7 @@
  * print_line - draws a line
  * @n: time the char is printed
  */
-void print_line(int)
+void print_line(int n)
 {
 	int i;
 
