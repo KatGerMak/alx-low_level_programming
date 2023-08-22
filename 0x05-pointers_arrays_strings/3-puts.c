@@ -1,4 +1,4 @@
-#inculde "main.h"
+#include "main.h"
 /**
  * _puts - print string to stdout
  * @str: string to print
