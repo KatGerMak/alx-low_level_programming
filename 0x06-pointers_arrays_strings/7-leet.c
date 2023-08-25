@@ -7,7 +7,7 @@
 char *leet(char *s)
 {
 	char *p = s;
-	char *let_chars = "aAeEoOtTlL";
+	char *leet_chars = "aAeEoOtTlL";
 	char *leet_replace = "4433007711";
 	int i;
 
@@ -23,5 +23,5 @@ char *leet(char *s)
 		}
 	}
 
-	return (str);
+	return (s);
 }
