@@ -15,7 +15,7 @@ char *string_toupper(char *str)
 			*p = *p - 'a' + 'A';
 		}
 
-		p++
+		p++;
 	}
 
 	return (str);
