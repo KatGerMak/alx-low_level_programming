@@ -6,7 +6,7 @@
  * @n: max number of bytes to from src
  * Return: A result string pointer
  */
-char *_strncat(char *dest, *char src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	char *p = dest;
 
