@@ -16,7 +16,7 @@ int is_prime_rec(int n, int divi)
 		return (1);
 
 	if (n % divi == 0)
-		return 0;
+		return (0);
 
 	return (is_prime_rec(n, divi + 1));
 }
