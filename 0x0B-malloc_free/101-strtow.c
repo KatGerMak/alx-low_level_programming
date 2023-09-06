@@ -41,7 +41,7 @@ int count_words(char *str)
 	if (in_word)
 		count++;
 
-	return count;
+	return (count);
 }
 
 /**
@@ -88,7 +88,7 @@ char **strtow(char *str)
 				return (NULL);
 			}
 			for (j = 0; j < len; j++)
-				result[i][j] = *(str - len +j);
+				result[i][j] = *(str - len + j);
 
 			result[i][len] = '\0';
 
@@ -100,7 +100,7 @@ char **strtow(char *str)
 
 	if (len > 0)
 	{
-		result[i] = malloc(sizeof(char) * (len +1));
+		result[i] = malloc(sizeof(char) * (len + 1));
 
 		if (result[i] == NULL)
 		{
