@@ -88,7 +88,7 @@ char **strtow(char *str)
 				return (NULL);
 			}
 			for (j = 0; j < len; j++)
-				result[i] = *(str - len +j);
+				result[i][j] = *(str - len +j);
 
 			result[i][len] = '\0';
 
